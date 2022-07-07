@@ -1,0 +1,27 @@
+/*Name and Photo*/
+#selfie img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+#personal > * {
+    margin:0;
+    padding:0;
+}
+
+/*Contact Navigation*/
+#navigation a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact a {
+	margin: 0 16px;
+	padding: 0;
+}
+
+#contact img{
+    width: 16px;
+    height 16px;
+}
