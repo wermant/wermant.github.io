@@ -5,7 +5,8 @@ body{
 
 #selfie img{
     float:left;
-    margin: 2.5%;
+    margin-top: 2.5%;
+    margin-left:33%;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -27,8 +28,39 @@ body{
 	margin: 0px 16px;
 }
 
-#contact img{
-    margin-top:5.5%;
-    width: 50px;
-    height 50px;
+#email{
+    margin-top:80px;
+    height:50px;
+    width:50px;
+}
+
+#github{
+    margin-top:80px;
+    height:50px;
+    width: 70px;
+}
+
+#linkedin{
+    margin-top:80px;
+    width:50px;
+    height: 50px;
+}
+
+/*table css*/
+table, th, td {
+    border:1px solid black;
+}
+
+th{
+    width:600px;
+}
+
+#projects{
+    margin-top:50px;
+    margin-left:150px;
+}
+
+#projects img{
+    width: 600px;
+    height: 300px;
 }
