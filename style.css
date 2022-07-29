@@ -1,13 +1,20 @@
 /*Name and Photo*/
+body{
+    background-color:darkcyan;
+}
+
 #selfie img{
-    width: 36px;
-    height: 36px;
+    float:left;
+    margin: 2.5%;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
-#personal > * {
-    margin:0;
-    padding:0;
+#name {
+    position:relative;
+    top: 60px;
+    font-size: 50px;
 }
 
 /*Contact Navigation*/
@@ -17,11 +24,11 @@
 }
 
 #contact a {
-	margin: 0 16px;
-	padding: 0;
+	margin: 0px 16px;
 }
 
 #contact img{
-    width: 16px;
-    height 16px;
+    margin-top:5.5%;
+    width: 50px;
+    height 50px;
 }
